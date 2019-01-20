@@ -5,6 +5,10 @@ body{
     font-weight: 200;
     margin :0;
 }
-.now-time{
-    font-size: 30px;
+.now-time {
+    font-size: 80px;
+}
+.now-day{
+    margin-top: -15px;
+    font-size: 20px;
 }
