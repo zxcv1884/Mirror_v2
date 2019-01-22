@@ -9,9 +9,13 @@ function createWindow () {
   // Create the browser window.
   mainWindow = new BrowserWindow({width: 800, height: 600,fullscreen: true})
 
+
+  //這是用來取消上面的選單的 但是mac 好像不行
+  //mainWindow.setMenu(null)
+
+
   // and load the index.html of the app.
   mainWindow.loadFile('index.html')
-
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
 

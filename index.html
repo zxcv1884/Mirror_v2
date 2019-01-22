@@ -13,9 +13,17 @@
   </div>
     <h1>Hello World!</h1>
     <!-- All of the Node.js APIs are available in this renderer process. -->
+  <button id="close-btn">點擊關閉</button>>
     We are using Node.js <script>document.write(process.versions.node)</script>,
     Chromium <script>document.write(process.versions.chrome)</script>,
     and Electron <script>document.write(process.versions.electron)</script>.
     <script src="app.js"></script>
+  <script>
+    const remote = require('electron').remote;
+    document.getElementById("close-btn").addEventListener("click", function (e) {
+      var window = remote.getCurrentWindow();
+      window.close();
+    });
+  </script>>
   </body>
 </html>
