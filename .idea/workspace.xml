@@ -2,38 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0ad891e-23ae-4741-b5d8-e42bc23e5c44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/weather.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather_icon/ios11-weather-blowing-snow-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather_icon/ios11-weather-clear-night-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather_icon/ios11-weather-cloudy-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather_icon/ios11-weather-drizzle-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather_icon/ios11-weather-dust-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather_icon/ios11-weather-fog-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather_icon/ios11-weather-frigid-temps-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather_icon/ios11-weather-hail-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather_icon/ios11-weather-haze-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather_icon/ios11-weather-heavy-rain-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather_icon/ios11-weather-hot-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather_icon/ios11-weather-hurricane-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather_icon/ios11-weather-partly-cloudy-night-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather_icon/ios11-weather-partly-sunny-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather_icon/ios11-weather-rain-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather_icon/ios11-weather-scattered-snow-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather_icon/ios11-weather-smoke-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather_icon/ios11-weather-snow-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather_icon/ios11-weather-snow-sleet-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather_icon/ios11-weather-sunny-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather_icon/ios11-weather-sunrise-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather_icon/ios11-weather-sunset-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather_icon/ios11-weather-thunderstorm-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather_icon/ios11-weather-tornado-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather_icon/ios11-weather-wind-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather_icon/weather.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather_icon/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather_icon/15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather_icon/19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather_icon/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather_icon/21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather_icon/23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather_icon/24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather_icon/29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather_icon/34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather_icon/37.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather_icon/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather_icon/42.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather_icon/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather_icon/8.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/moment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather.js" beforeDir="false" afterPath="$PROJECT_DIR$/weather.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather_icon/ios11-weather-blowing-snow-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather_icon/ios11-weather-clear-night-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather_icon/ios11-weather-cloudy-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather_icon/ios11-weather-drizzle-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather_icon/ios11-weather-dust-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather_icon/ios11-weather-fog-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather_icon/ios11-weather-frigid-temps-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather_icon/ios11-weather-hail-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather_icon/ios11-weather-haze-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather_icon/ios11-weather-heavy-rain-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather_icon/ios11-weather-hot-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather_icon/ios11-weather-hurricane-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather_icon/ios11-weather-partly-cloudy-night-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather_icon/ios11-weather-partly-sunny-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather_icon/ios11-weather-rain-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather_icon/ios11-weather-scattered-snow-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather_icon/ios11-weather-smoke-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather_icon/ios11-weather-snow-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather_icon/ios11-weather-snow-sleet-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather_icon/ios11-weather-sunny-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather_icon/ios11-weather-sunrise-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather_icon/ios11-weather-sunset-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather_icon/ios11-weather-thunderstorm-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather_icon/ios11-weather-tornado-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather_icon/ios11-weather-wind-icon.png" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -49,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+            <state relative-caret-position="609">
+              <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -58,22 +70,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="31" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/weather.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="23" column="24" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="24" />
+            <state relative-caret-position="299">
+              <caret line="13" column="31" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/weather.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/moment.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
@@ -103,8 +115,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="414">
+              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -122,6 +134,7 @@
     <findStrings>
       <find>menu</find>
       <find>exit</find>
+      <find>&amp;&amp;</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -133,7 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app.css" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/package-lock.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -144,17 +156,17 @@
         <option value="$PROJECT_DIR$/APP_ALL.js" />
         <option value="$PROJECT_DIR$/main.js" />
         <option value="$PROJECT_DIR$/APP_DETAIL.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/moment.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/app.css" />
         <option value="$PROJECT_DIR$/weather.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="26" />
-    <option name="y" value="-19" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -167,6 +179,11 @@
             <path>
               <item name="Mirror_v2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mirror_v2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mirror_v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mirror_v2" type="462c0819:PsiDirectoryNode" />
+              <item name="weather_icon" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -222,32 +239,33 @@
       <workItem from="1548255347904" duration="23405000" />
       <workItem from="1548426383940" duration="1469000" />
       <workItem from="1548509705506" duration="8256000" />
+      <workItem from="1548679083920" duration="4294000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47188000" />
+    <option name="totallyTimeSpent" value="51482000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-56" y="110" width="1936" height="1056" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1369863" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.136716" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49964765" weight="0.32899868" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.329718" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49964765" weight="0.32899868" />
       <window_info anchor="bottom" id="TypeScript" order="9" sideWeight="0.49947312" weight="0.32924107" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5036881" side_tool="true" visible="true" weight="0.23883928" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4963119" visible="true" weight="0.23883928" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50528544" side_tool="true" visible="true" weight="0.2379714" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4947146" visible="true" weight="0.2379714" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -255,6 +273,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/node_modules/moment/moment.d.ts" />
@@ -344,20 +365,8 @@
     <entry file="file://$PROJECT_DIR$/test.js" />
     <entry file="file://$PROJECT_DIR$/OLRDER.js" />
     <entry file="file://$PROJECT_DIR$/APP_ALL.js" />
-    <entry file="file://$PROJECT_DIR$/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weather_icon/weather.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-145">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/weather_icon/weather.sql" />
+    <entry file="file://$PROJECT_DIR$/node_modules/mysql/lib/Connection.js" />
     <entry file="file://$PROJECT_DIR$/ORDER.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -372,38 +381,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/moment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="70" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+        <state relative-caret-position="609">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/mysql/lib/Connection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="90" column="27" selection-start-line="90" selection-start-column="27" selection-end-line="90" selection-end-column="27" />
+        <state relative-caret-position="299">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/weather.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/moment.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="70" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="70" />
+        <state relative-caret-position="215">
+          <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
         </state>
       </provider>
     </entry>
