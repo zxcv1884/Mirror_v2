@@ -5,6 +5,8 @@
     <title>Hello World!</title>
     <link rel="stylesheet" type="text/css" href="app.css">
     <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css ">
+    <link rel="stylesheet" href="node_modules/swiper/dist/css/swiper.min.css">
+    <script src="node_modules/swiper/dist/js/swiper.min.js"></script>
 </head>
 <body>
 <div class="overflow-hidden" >
@@ -20,7 +22,17 @@
     <h1>Hello World!</h1>
     <!-- All of the Node.js APIs are available in this renderer process. -->
     <button id="close-btn" style="">點擊關閉</button>
-    <div  id="aj"></div>
+<div class="swiper-container swiper-container-horizontal" id="swiper-container">
+    <div class="swiper-wrapper" id = "swiper-wrapper"></div>
+    <span class="swiper-notification" aria-live="assertive" aria-atomic="false"></span>
+</div>
+
+<script language="javascript">
+    var mySwiper = new Swiper('.swiper-container',{
+        direction : 'horizontal',
+        autoplay :true
+    })
+</script>
 
 
 
