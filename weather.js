@@ -4,7 +4,7 @@ const weather = document.querySelector('.now-weather');
 const con = mysql.createConnection({
     host: "localhost",
     user: "root",
-    password: "",
+    password: "nayuyu1884",
     database: "server"
 });
 let district = "";
