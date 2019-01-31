@@ -9,17 +9,33 @@ facebook.id = "facebook";
 facebook.style.backgroundImage = "url(app_picture/FACEBOOK.png)";
 facebook.className = "app swiper-slide";
 
-var weather = document.createElement("div");
-weather.id = "weather";
-weather.style.backgroundImage = "url(app_picture/WEATHER.png)";
-weather.className = "app swiper-slide";
+var weather_de = document.createElement("div");
+weather_de.id = "weather_de";
+weather_de.style.backgroundImage = "url(app_picture/WEATHER.png)";
+weather_de.className = "app swiper-slide";
 
+var news_de = document.createElement("div");
+news_de.id = "news_de";
+news_de.style.backgroundImage = "url(app_picture/news.png)";
+news_de.className = "app swiper-slide";
 
+var setting = document.createElement("div");
+setting.id = "setting";
+setting.style.backgroundImage = "url(app_picture/setting.png)";
+setting.className = "app swiper-slide";
+
+var close = document.createElement("div");
+close.id = "close";
+close.style.backgroundImage = "url(app_picture/close.png)";
+close.className = "app swiper-slide";
 
 var j = document.getElementById("swiper-wrapper");
 j.appendChild(youtube);
 j.appendChild(facebook);
-j.appendChild(weather);
+j.appendChild(weather_de);
+j.appendChild(news_de);
+j.appendChild(setting);
+j.appendChild(close);
 
 var all = document.querySelectorAll(".app");
 var i;
