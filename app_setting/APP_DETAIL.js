@@ -3,11 +3,13 @@ var youtube = document.createElement("div");
 youtube.id = "youtube";
 youtube.style.backgroundImage = "url(app_picture/YOUTUBE.png)";
 youtube.className = "app swiper-slide";
+youtube.dataset.htmllink = "app_youtube.html";
 
 var facebook = document.createElement("div");
 facebook.id = "facebook";
 facebook.style.backgroundImage = "url(app_picture/FACEBOOK.png)";
 facebook.className = "app swiper-slide";
+facebook.dataset.htmllink = "app_facebook";
 
 var weather_de = document.createElement("div");
 weather_de.id = "weather_de";
