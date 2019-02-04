@@ -5,41 +5,38 @@
     <title>Hello World!</title>
     <link rel="stylesheet" type="text/css" href="app.css">
     <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css ">
+
     <link rel="stylesheet" href="node_modules/swiper/dist/css/swiper.min.css">
     <script src="node_modules/swiper/dist/js/swiper.min.js"></script>
 </head>
 <body>
-<div class="overflow-hidden" >
-    <div class="float-left">
-        <div class="weather-pic text-left"></div>
-        <div class="now-weather text-left">這邊放天氣</div>
+<div class="pt-page-1">
+    <div id="app-info">
+        <div class="overflow-hidden">
+            <div class="float-left">
+                <div class="weather-pic text-left"></div>
+                <div class="now-weather text-left">這邊放天氣</div>
+            </div>
+            <div class="float-right">
+                <div class="now-time text-right"></div>
+                <div class="now-day text-right"></div>
+            </div>
+        </div>
     </div>
-    <div class="float-right">
-        <div class="now-time text-right"></div>
-        <div class="now-day text-right"></div>
+    <div id="app-menu">
+        <div class=" swiper-container swiper-container-horizontal" id="swiper-container">
+            <div class="swiper-wrapper" id="swiper-wrapper"></div>
+            <span class="swiper-notification" aria-live="assertive" aria-atomic="false"></span>
+        </div>
+
+        <script src="moment.js"></script>
+        <script src="weather.js"></script>
+        <script src="app_setting/APP_DETAIL.js" type="text/javascript"></script>
+        <script src="app_setting/APP_ORDER.js" type="text/javascript"></script>
+
     </div>
 </div>
-    <h1>Hello World!</h1>
-    <!-- All of the Node.js APIs are available in this renderer process. -->
-    <button id="close-btn" style="">點擊關閉</button>
-<div class="swiper-container swiper-container-horizontal" id="swiper-container">
-    <div class="swiper-wrapper" id = "swiper-wrapper"></div>
-    <span class="swiper-notification" aria-live="assertive" aria-atomic="false"></span>
+<div id="app_de" class="pt-page-2">
 </div>
-
-<script language="javascript">
-    var mySwiper = new Swiper('.swiper-container',{
-        direction : 'horizontal',
-        autoplay :true
-    })
-</script>
-
-
-
-
-    <script src="moment.js"></script>
-    <script src="weather.js"></script>
-    <script src="ORDER.js" type="text/javascript"></script>
-    <script src="APP_DETAIL.js" type="text/javascript"></script>
 </body>
 </html>
