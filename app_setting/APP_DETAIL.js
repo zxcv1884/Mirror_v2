@@ -9,22 +9,25 @@ var facebook = document.createElement("div");
 facebook.id = "facebook";
 facebook.style.backgroundImage = "url(app_picture/FACEBOOK.png)";
 facebook.className = "app swiper-slide";
-facebook.dataset.htmllink = "app_facebook";
+facebook.dataset.htmllink = "app_facebook.html";
 
 var weather_de = document.createElement("div");
 weather_de.id = "weather_de";
 weather_de.style.backgroundImage = "url(app_picture/WEATHER.png)";
 weather_de.className = "app swiper-slide";
+weather_de.dataset.htmllink = "app_weather_de.html";
 
 var news_de = document.createElement("div");
 news_de.id = "news_de";
 news_de.style.backgroundImage = "url(app_picture/news.png)";
 news_de.className = "app swiper-slide";
+news_de.dataset.htmllink = "app_news_de.html";
 
 var setting = document.createElement("div");
 setting.id = "setting";
 setting.style.backgroundImage = "url(app_picture/setting.png)";
 setting.className = "app swiper-slide";
+setting.dataset.htmllink = "app_setting.html";
 
 var close = document.createElement("div");
 close.id = "close";
