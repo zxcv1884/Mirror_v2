@@ -1,21 +1,15 @@
 
-var youtube = document.createElement("div");
-youtube.id = "youtube";
-youtube.style.backgroundImage = "url(app_picture/YOUTUBE.png)";
-youtube.className = "app swiper-slide";
-youtube.dataset.htmllink = "app_youtube.html";
+var magnifier = document.createElement("div");
+magnifier.id = "magnifier";
+magnifier.style.backgroundImage = "url(app_picture/magnifier.png)";
+magnifier.className = "app swiper-slide";
+magnifier.dataset.htmllink = "app_magnifier.html";
 
-var facebook = document.createElement("div");
-facebook.id = "facebook";
-facebook.style.backgroundImage = "url(app_picture/FACEBOOK.png)";
-facebook.className = "app swiper-slide";
-facebook.dataset.htmllink = "app_facebook.html";
-
-var weather_de = document.createElement("div");
-weather_de.id = "weather_de";
-weather_de.style.backgroundImage = "url(app_picture/WEATHER.png)";
-weather_de.className = "app swiper-slide";
-weather_de.dataset.htmllink = "app_weather_de.html";
+var calender = document.createElement("div");
+calender.id = "calender";
+calender.style.backgroundImage = "url(app_picture/calender.png)";
+calender.className = "app swiper-slide";
+calender.dataset.htmllink = "app_calender.html";
 
 var news_de = document.createElement("div");
 news_de.id = "news_de";
@@ -35,9 +29,8 @@ close.style.backgroundImage = "url(app_picture/close.png)";
 close.className = "app swiper-slide";
 
 var j = document.getElementById("swiper-wrapper");
-j.appendChild(youtube);
-j.appendChild(facebook);
-j.appendChild(weather_de);
+j.appendChild(magnifier);
+j.appendChild(calender);
 j.appendChild(news_de);
 j.appendChild(setting);
 j.appendChild(close);
