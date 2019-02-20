@@ -1,6 +1,8 @@
 const mysql = require('mysql');
+const Chart = require('chart.js');
 const pic = document.querySelector('.weather-pic');
 const weather = document.querySelector('.now-weather');
+const weatherChart = document.querySelector('weather-chart');
 const con = mysql.createConnection({
     host: "localhost",
     user: "root",
@@ -29,6 +31,7 @@ for(let i of temp ){
 }
 
 function timer() {
+    appendData();
     if (district !== "") {
         con.query("SELECT * FROM `weathers` WHERE `鄉鎮` ='" + district + "' ORDER BY `weathers`.`時間` ASC", function (error, result) {
             let Wx = (result[0].天氣現象編號);
@@ -39,4 +42,66 @@ function timer() {
     }
 }
 
+// y 軸的顯示
+let yAxis= [];
+// 資料集合，之後只要更新這個就好了。
+let datas=[];
+let ctx = document.getElementById('canvasLine').getContext('2d');
+let lineChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+        labels:yAxis,
+        datasets: [{
+            label: '氣溫',
+            data: datas,
+            backgroundColor: "rgba(0,148,255,0.6)"
+        }]
+    }
+});
+function appendData()
+{
+    con.query("SELECT * FROM `weathers` WHERE `鄉鎮` ='" + district + "' ORDER BY `weathers`.`時間` ASC", function (error, result) {
+        let j = 0;
+        let timeArr=[];
+        let weekday = new Array(7);
+        weekday[0] = "（日）";
+        weekday[1] = "（一）";
+        weekday[2] = "（二）";
+        weekday[3] = "（三）";
+        weekday[4] = "（四）";
+        weekday[5] = "（五）";
+        weekday[6] = "（六）";
+        if(yAxis.length>0){
+            yAxis.clear();
+            datas.clear();
+        }
+
+            while (j<20) {
+            //超過10 個，就把最早進來的刪掉
+            //推入y 軸新的資料
+            if(yAxis.length>18){
+                yAxis.shift();
+                datas.shift();
+            }
+            let datetime = new Date();
+            datetime.setTime(result[j].時間);
+            if (datetime.getHours() < 10){
+                timeArr.push(weekday[datetime.getDay()]+"0"+datetime.getHours()+":00");
+            } else {
+                timeArr.push(weekday[datetime.getDay()]+datetime.getHours()+":00");
+            }
+
+            yAxis.push(timeArr[j]);
+            datas.push(result[j].溫度);
+
+            //更新線圖
+            lineChart.update();
+            j++;
+        }
+    });
+
+}
+
+
+//每秒做一次
 setInterval(timer, 1000 * 60 * 30);
