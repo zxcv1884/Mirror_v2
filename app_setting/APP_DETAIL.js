@@ -15,7 +15,7 @@ var news_de = document.createElement("div");
 news_de.id = "news_de";
 news_de.style.backgroundImage = "url(app_picture/news.png)";
 news_de.className = "app swiper-slide";
-news_de.dataset.htmllink = "app_news_de.html";
+news_de.dataset.htmllink = "app_news.html";
 
 var setting = document.createElement("div");
 setting.id = "setting";

@@ -6,7 +6,7 @@ const weatherChart = document.querySelector('weather-chart');
 const con = mysql.createConnection({
     host: "localhost",
     user: "root",
-    password: "",
+    password: "nayuyu1884",
     database: "server"
 });
 let district = "";
@@ -72,8 +72,8 @@ function appendData()
         weekday[5] = "（五）";
         weekday[6] = "（六）";
         if(yAxis.length>0){
-            yAxis.clear();
-            datas.clear();
+            // yAxis.clear();
+            // datas.clear();
         }
 
             while (j<20) {
