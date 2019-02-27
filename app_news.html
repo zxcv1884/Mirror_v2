@@ -1,74 +1,64 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Hello World!</title>
-    <link rel="stylesheet" type="text/css" href="news.css">
-    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css ">
-</head>
-<body>
-<!-- Swiper -->
-<div class="swiper-con">
-    <div class="swiper-wrapper">
-        <div class="swiper-slide">
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide first">
-                        <div class="top text-center">
-                            <div class ="top-title"></div>
-                            <img src="arrow-icon/up-arrow.png" alt="up" height="50"></div>
-                        <div class="container">
-                            <div class="newsTitle text-left h3"></div>
-                            <br>
-                            <div class="newsContent text-left h5">
-                            </div>
-                            <div class="blockquote-footer"></div>
-                        </div>
-                        <div class="down text-center"><img src="arrow-icon/down-arrow.png" alt="down" height="50">
-                            <div class ="down-title">
-                            </div>
-                        </div>
+<!--<div class="swiper-con">-->
+<!--<div class="swiper-wrapper">-->
+<!--<div class="swiper-slide">-->
+<div v-if=dataList.length>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide first">
+                <div class="top text-center">
+                    <div class="top-title"></div>
+                    <img src="arrow-icon/up-arrow.png" alt="up" height="50"></div>
+                <div class="container">
+                    <div class="newsTitle text-left h3"></div>
+                    <br>
+                    <div class="newsContent text-left h5">
                     </div>
-                    <div class="swiper-slide second">
-                        <div class="top text-center">
-                            <div class ="top-title"></div>
-                            <img src="arrow-icon/up-arrow.png" alt="up" height="50"></div>
-                        <div class="container">
-                            <div class="newsTitle text-left h3"></div>
-                            <br>
-                            <div class="newsContent text-left h5">
-                            </div>
-                            <div class="blockquote-footer"></div>
-                        </div>
-                        <div class="down text-center"><img src="arrow-icon/down-arrow.png" alt="down" height="50">
-                            <div class ="down-title">
-                            </div>
-                        </div>
+                    <div class="blockquote-footer"></div>
+                </div>
+                <div class="down text-center"><img src="arrow-icon/down-arrow.png" alt="down" height="50">
+                    <div class="down-title">
                     </div>
-                    <div class="swiper-slide third">
-                        <div class="top text-center">
-                            <div class ="top-title"></div>
-                            <img src="arrow-icon/up-arrow.png" alt="up" height="50"></div>
-                        <div class="container">
-                            <div class="newsTitle text-left h3"></div>
-                            <br>
-                            <div class="newsContent text-left h5">
-                            </div>
-                            <div class="blockquote-footer"></div>
-                        </div>
-                        <div class="down text-center"><img src="arrow-icon/down-arrow.png" alt="down" height="50">
-                            <div class ="down-title">
-                            </div>
-                        </div>
+                </div>
+            </div>
+            <div class="swiper-slide second">
+                <div class="top text-center">
+                    <div class="top-title"></div>
+                    <img src="arrow-icon/up-arrow.png" alt="up" height="50"></div>
+                <div class="container">
+                    <div class="newsTitle text-left h3"></div>
+                    <br>
+                    <div class="newsContent text-left h5">
+                    </div>
+                    <div class="blockquote-footer"></div>
+                </div>
+                <div class="down text-center"><img src="arrow-icon/down-arrow.png" alt="down" height="50">
+                    <div class="down-title">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide third">
+                <div class="top text-center">
+                    <div class="top-title"></div>
+                    <img src="arrow-icon/up-arrow.png" alt="up" height="50"></div>
+                <div class="container">
+                    <div class="newsTitle text-left h3"></div>
+                    <br>
+                    <div class="newsContent text-left h5">
+                    </div>
+                    <div class="blockquote-footer"></div>
+                </div>
+                <div class="down text-center"><img src="arrow-icon/down-arrow.png" alt="down" height="50">
+                    <div class="down-title">
                     </div>
                 </div>
             </div>
         </div>
-        <!--<div class="swiper-slide">-->
-            <!---->
-        <!--</div>-->
     </div>
 </div>
+<!--<div class="swiper-slide">-->
+<!---->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
 <script src="app_setting/app_news.js"></script>
-</body>
-</html>
+<link rel="stylesheet" type="text/css" href="news.css">
