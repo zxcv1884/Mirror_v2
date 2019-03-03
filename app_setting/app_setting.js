@@ -1,13 +1,13 @@
-var a = document.createElement("button");
-const $ = jQuery = require("jquery");
 
+var a = document.createElement("button");
+a.className = "aaa";
 a.id = "a";
 a.innerText = "點擊關閉";
-a.className = "app swiper-slide";
-
-$('#a').on('click', function () {
-    var window = remote.getCurrentWindow();
-    window.close();
+$(document).ready(function () {
+    $("#a").on("click", function () {
+        var window = remote.getCurrentWindow();
+        window.close();
+    });
 });
-var j = document.getElementById("a");
-j.appendChild(a);
+var add = document.getElementById("appclose");
+add.appendChild(a);
