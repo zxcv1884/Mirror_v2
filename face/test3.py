@@ -15,7 +15,7 @@ import sys
 import MySQLdb 
 
 #打開數據庫連接
-db = MySQLdb.connect ( "localhost" , "root" , "" , "server" , charset = 'utf8' )     
+db = MySQLdb.connect ( "localhost" , "root" , "nayuyu1884" , "server" , charset = 'utf8' )
 
 
 # 使用cursor()方法获取操作游标

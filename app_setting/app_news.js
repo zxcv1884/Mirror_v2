@@ -35,7 +35,6 @@ var mySwiper = new Swiper('.swiper-container', {
     runCallbacksOnInit: 'true',
     on: {
         slideNextTransitionStart: function () {
-            alert('next');
             count += this.realIndex;
             if (count > 2) {
                 switch (this.realIndex) {

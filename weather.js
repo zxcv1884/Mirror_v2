@@ -3,6 +3,8 @@ const Chart = require('chart.js');
 const pic = document.querySelector('.weather-pic');
 const weather = document.querySelector('.now-weather');
 const weatherChart = document.querySelector('weather-chart');
+const select = document.getElementById("usermail");
+let email = select.innerHTML;
 const con = mysql.createConnection({
     host: "localhost",
     user: "root",
@@ -10,7 +12,7 @@ const con = mysql.createConnection({
     database: "server"
 });
 let district = "";
-con.query("SELECT `district` FROM `personalization` WHERE `user` = 'zxcv1884@gmail.com'", function (error, result) {
+con.query("SELECT `district` FROM `personalization` WHERE `user` = '"+email+"'", function (error, result) {
     if (result.length > 0) {
         district = result[0].district;
         console.log(result[0].district);
