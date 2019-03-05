@@ -30,7 +30,6 @@ var mySwiper = new Swiper('.swiper-container', {
     direction: 'vertical',
     loop : true,
     slidesPerView:'auto',
-    // loopedSlides: 3,
     initialSlide: 1,
     runCallbacksOnInit: 'true',
     on: {

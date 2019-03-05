@@ -2,7 +2,6 @@ const mysql = require('mysql');
 const Chart = require('chart.js');
 const pic = document.querySelector('.weather-pic');
 const weather = document.querySelector('.now-weather');
-const weatherChart = document.querySelector('weather-chart');
 const select = document.getElementById("usermail");
 let email = select.innerHTML;
 const con = mysql.createConnection({
@@ -73,10 +72,10 @@ function appendData()
         weekday[4] = "（四）";
         weekday[5] = "（五）";
         weekday[6] = "（六）";
-        if(yAxis.length>0){
+        // if(yAxis.length>0){
             // yAxis.clear();
             // datas.clear();
-        }
+        // }
 
             while (j<20) {
             //超過10 個，就把最早進來的刪掉
@@ -103,7 +102,5 @@ function appendData()
     });
 
 }
-
-
 //每秒做一次
 setInterval(timer, 1000 * 60 * 30);
