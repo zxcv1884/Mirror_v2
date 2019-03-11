@@ -14,7 +14,7 @@ let district = "";
 con.query("SELECT `district` FROM `personalization` WHERE `user` = '"+email+"'", function (error, result) {
     if (result.length > 0) {
         district = result[0].district;
-        console.log(result[0].district);
+        // console.log(result[0].district);
         timer();
     } else {
         console.log('使用者未設定住址');
