@@ -72,12 +72,12 @@ function appendData()
         weekday[4] = "（四）";
         weekday[5] = "（五）";
         weekday[6] = "（六）";
-        // if(yAxis.length>0){
-            // yAxis.clear();
-            // datas.clear();
-        // }
+        if(yAxis.length>0){
+            yAxis.clear();
+            datas.clear();
+        }
 
-            while (j<20) {
+            while (j<15) {
             //超過10 個，就把最早進來的刪掉
             //推入y 軸新的資料
             if(yAxis.length>18){
@@ -102,5 +102,11 @@ function appendData()
     });
 
 }
+function callGoogleCalendar(){
+    let importedGoogle = document.createElement('script');
+    importedGoogle.src = './googleCalendar.js';
+    document.head.appendChild(importedGoogle);
+}
 //每秒做一次
 setInterval(timer, 1000 * 60 * 30);
+setTimeout(callGoogleCalendar,100);

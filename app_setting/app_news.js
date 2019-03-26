@@ -16,6 +16,7 @@ const thirdNewsContent = third.querySelector('.newsContent');
 const thirdTopTitle = third.querySelector('.top-title');
 const thirdDownTitle = third.querySelector('.down-title');
 const thirdQuoteFooter = third.querySelector('.blockquote-footer');
+
 let page1 = 1;
 let page2 = 2;
 let page3 = 3;
@@ -89,6 +90,7 @@ function refresh1(page1) {
         firstDownTitle.innerText = (result[page1 + 1].title);
         firstNewsTitle.innerText = (result[page1].title);
         firstNewsContent.innerHTML = (result[page1].article);
+        console.log(result[page1].realUrl);
     });
 }
 

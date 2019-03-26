@@ -20,5 +20,5 @@ const child_process = require('child_process');
         });
     let imported = document.createElement('script');
     imported.src = './weather.js';
-    document.head.appendChild(imported);
-});
+        document.head.appendChild(imported);
+    });
