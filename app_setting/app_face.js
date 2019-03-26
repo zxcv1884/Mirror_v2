@@ -14,9 +14,10 @@ const child_process = require('child_process');
     }
     let email = stdout.split("'");
     const b = document.getElementById("usermail");
-    b.innerText = email[3];
+    const welcome = document.getElementById("welcome");
+        b.innerText = email[3];
         con.query("SELECT * FROM `users` WHERE `email` = '" + email[3] + "'", function (error, result) {
-            b.innerText = '您好，'+result[0].name;
+            welcome.innerText = '您好，'+result[0].name;
         });
     let imported = document.createElement('script');
     imported.src = './weather.js';
