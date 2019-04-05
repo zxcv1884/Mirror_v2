@@ -19,38 +19,42 @@ const thirdQuoteFooter = third.querySelector('.blockquote-footer');
 let type = [];
 let typeCount = 0;
 let count = 0;
+let typeCount2 = 0;
+let typerefresh = 0;
+let callpage = 0;
 let category;
 let page1 = 1;
 let page2 = 2;
 let page3 = 3;
-con.query("SELECT `headline`,`international`,`business`,`science`,`entertainment`,`sport`,`health`,`local` FROM `personalization` WHERE user = '"+ email +"'", function (error, result) {
-    if ((result[0].headline)==='1'){
+con.query("SELECT `headline`,`international`,`business`,`science`,`entertainment`,`sport`,`health`,`local` FROM `personalization` WHERE user = '" + email + "'", function (error, result) {
+    if ((result[0].headline) === '1') {
         type.push('headline');
     }
-    if ((result[0].international)==='1'){
+    if ((result[0].international) === '1') {
         type.push('international');
     }
-    if ((result[0].business)==='1'){
+    if ((result[0].business) === '1') {
         type.push('business');
     }
-    if ((result[0].science)==='1'){
+    if ((result[0].science) === '1') {
         type.push('science');
     }
-    if ((result[0].entertainment)==='1'){
+    if ((result[0].entertainment) === '1') {
         type.push('entertainment');
     }
-    if ((result[0].sport)==='1'){
+    if ((result[0].sport) === '1') {
         type.push('sport');
     }
-    if ((result[0].health)==='1'){
+    if ((result[0].health) === '1') {
         type.push('health');
     }
-    if ((result[0].local)==='1'){
+    if ((result[0].local) === '1') {
         type.push('local');
     }
     firstPage(type[0])
 });
-function firstPage(type){
+
+function firstPage(type) {
     category = type;
     refresh1(page1);
     refresh2(page2);
@@ -60,58 +64,65 @@ function firstPage(type){
 new Swiper('.swiper-con', {
     observer: true,
     observeParents: true,
-    loop : true,
-    // slidesPerView:'auto',
-    initialSlide: 1,
-    // runCallbacksOnInit: 'true',
-    on: {
-        slideNextTransitionEnd: function () {
-            if(type.length-1 !== typeCount){
-            category = type[++typeCount];
-            page1 = 1;
-            page2 = 2;
-            page3 = 3;
-            console.log(category);
-                refresh1(page1);
-                refresh2(page2);
-                refresh3(page3);
-            }
-            this.slideTo(1,200,false);
-        },
-        slidePrevTransitionEnd: function(){
-            if(typeCount!==0){
-            category = type[--typeCount];
-            page1 = 1;
-              page2 = 2;
-              page3 = 3;
-                console.log(category);
-                refresh1(page1);
-                refresh2(page2);
-                refresh3(page3);
-            }
-            this.slideTo(1,200,false);
-        },
-    },
-});
-
-new Swiper('.swiper-container', {
-    observer: true,
-    observeParents: true,
-    direction: 'vertical',
-    loop : true,
-    slidesPerView:'auto',
+    loop: true,
+    slidesPerView: 'auto',
     initialSlide: 1,
     runCallbacksOnInit: 'true',
     on: {
         slideNextTransitionEnd: function () {
+            typeCount2++;
+            if (type.length - 1 !== typeCount && typeCount2 > 1) {
+                category = type[++typeCount];
+                page1 = 1;
+                page2 = 2;
+                page3 = 3;
+                console.log(category);
+                refresh1(page1);
+                refresh2(page2);
+                refresh3(page3);
+                count = -1;
+            }
+            this.slideTo(1, 200, false);
+        },
+        slidePrevTransitionEnd: function () {
+            if (typeCount !== 0) {
+                category = type[--typeCount];
+                page1 = 1;
+                page2 = 2;
+                page3 = 3;
+                console.log(category);
+                refresh1(page1);
+                refresh2(page2);
+                refresh3(page3);
+                count = -1;
+            }
+            this.slideTo(1, 200, false);
+        },
+    },
+});
+
+let MySwiper = new Swiper('.swiper-container', {
+    observer: true,
+    observeParents: true,
+    direction: 'vertical',
+    loop: true,
+    slidesPerView: 'auto',
+    initialSlide: 0,
+    runCallbacksOnInit: 'true',
+    on: {
+        slideNextTransitionEnd: function () {
+            if(count!==-1){
             count += this.realIndex;
-            if (count > 4) {
+            }
+            callpage = this.realIndex;
+            if (count > 2) {
+                console.log(this.realIndex);
                 switch (this.realIndex) {
                     case 0:
                         page2 += 3;
                         refresh2(page2);
                         this.update();
-                        this.slideTo(3,200,false);
+                        this.slideTo(3, 200, false);
                         break;
                     case 1:
                         page3 += 3;
@@ -124,10 +135,15 @@ new Swiper('.swiper-container', {
                         this.update();
                         break;
                 }
+            }else if(count === -1){
+                this.slideTo(3, 200, false);
+                count = 0;
             }
         },
-        slidePrevTransitionEnd: function(){
-            count += this.realIndex;
+        slidePrevTransitionEnd: function () {
+            if(count!==-1){
+                count += this.realIndex;
+            }
             if (count > 2) {
                 switch (this.realIndex) {
                     case 0:
@@ -144,9 +160,12 @@ new Swiper('.swiper-container', {
                         page2 -= 3;
                         refresh2(page2);
                         this.update();
-                        this.slideTo(5,200,false);
+                        this.slideTo(5, 200, false);
                         break;
                 }
+            }else if(count === -1){
+                this.slideTo(3, 200, false);
+                count = 0;
             }
         },
     },
