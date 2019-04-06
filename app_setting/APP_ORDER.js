@@ -17,9 +17,10 @@ $(document).ready(function () {
         if (app.attr('id') === "close") {
             var window = remote.getCurrentWindow();
             window.close();
-        } else {
+        }
+
+        else {
             $("#app_de").load(app.data('htmllink'), function () {
-                //setCallbackGesture(window[widget.data('callback')]); 手勢回傳函數
                 $(".pt-page-1").addClass("pt-page-moveToLeftFade");
                 $(".pt-page-2").addClass("pt-page-current pt-page-moveFromRightFade");
                 setTimeout(function () {

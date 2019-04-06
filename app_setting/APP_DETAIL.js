@@ -3,7 +3,7 @@ var magnifier = document.createElement("div");
 magnifier.id = "magnifier";
 magnifier.style.backgroundImage = "url(app_picture/magnifier.png)";
 magnifier.className = "app swiper-slide";
-magnifier.dataset.htmllink = "app_magnifier.html";
+magnifier.dataset.htmllink = "app_magnifier2.html";
 
 var calender = document.createElement("div");
 calender.id = "calender";
