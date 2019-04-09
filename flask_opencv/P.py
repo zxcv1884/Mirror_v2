@@ -18,6 +18,7 @@ class VideoCamera(object):
         in_w = int(w * 2)
         in_h = int(h * 2)
         # Resize frame of video to 1/4 size for faster face recognition processing
+        image = cv2.flip(image, 1, dst=None)
         small_frame = cv2.resize(image, (in_w, in_h), fx=2, fy=2, interpolation=cv2.INTER_CUBIC)
         frame2 = small_frame[int(in_w / 3):int((in_w / 3 * 2) + 100), int(in_h / 3):int((in_h / 3 * 2) + 100)]
 
