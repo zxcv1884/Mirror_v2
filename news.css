@@ -42,3 +42,7 @@
 body {
     overflow:hidden;
 }
+.types{
+    font-size: 40px;
+    position:absolute;
+}

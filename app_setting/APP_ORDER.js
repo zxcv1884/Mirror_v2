@@ -4,9 +4,10 @@ const $ = jQuery = require("jquery");
 
 //APP滑動動畫宣告
 var mySwiper = new Swiper('.swiper-container', {
-    direction: 'horizontal',
-    autoplay: true
-})
+    direction: 'vertical',
+    autoplay: true,
+    loop: true,
+});
 
 //主畫面點擊app指令
 $(document).ready(function () {

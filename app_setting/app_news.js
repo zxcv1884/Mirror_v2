@@ -1,3 +1,4 @@
+const types = document.querySelector('.types');
 const first = document.querySelector('.first');
 const firstNewsTitle = first.querySelector('.newsTitle');
 const firstNewsContent = first.querySelector('.newsContent');
@@ -19,8 +20,6 @@ const thirdQuoteFooter = third.querySelector('.blockquote-footer');
 let type = [];
 let typeCount = 0;
 let count = 0;
-let typeCount2 = 0;
-let typerefresh = 0;
 let callpage = 0;
 let category;
 let page1 = 1;
@@ -66,16 +65,16 @@ new Swiper('.swiper-con', {
     observeParents: true,
     loop: true,
     slidesPerView: 'auto',
-    initialSlide: 1,
+    initialSlide: 0,
     runCallbacksOnInit: 'true',
     on: {
         slideNextTransitionEnd: function () {
-            typeCount2++;
-            if (type.length - 1 !== typeCount && typeCount2 > 1) {
+            if (type.length - 1 !== typeCount ) {
                 category = type[++typeCount];
                 page1 = 1;
                 page2 = 2;
                 page3 = 3;
+                // types.innerText = category;
                 console.log(category);
                 refresh1(page1);
                 refresh2(page2);
@@ -179,6 +178,7 @@ function refresh1(page1) {
         firstNewsTitle.innerText = (result[page1].title);
         firstNewsContent.innerHTML = (result[page1].article);
         console.log(page1);
+        types.innerText = category;
     });
 }
 

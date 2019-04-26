@@ -5,11 +5,11 @@ magnifier.style.backgroundImage = "url(app_picture/magnifier.png)";
 magnifier.className = "app swiper-slide";
 magnifier.dataset.htmllink = "app_magnifier2.html";
 
-var calender = document.createElement("div");
-calender.id = "calender";
-calender.style.backgroundImage = "url(app_picture/calender.png)";
-calender.className = "app swiper-slide";
-calender.dataset.htmllink = "app_calender.html";
+// var calender = document.createElement("div");
+// calender.id = "calender";
+// calender.style.backgroundImage = "url(app_picture/calender.png)";
+// calender.className = "app swiper-slide";
+// calender.dataset.htmllink = "index.html";
 
 var news_de = document.createElement("div");
 news_de.id = "news_de";
@@ -17,23 +17,23 @@ news_de.style.backgroundImage = "url(app_picture/news.png)";
 news_de.className = "app swiper-slide";
 news_de.dataset.htmllink = "app_news.html";
 
-var setting = document.createElement("div");
-setting.id = "setting";
-setting.style.backgroundImage = "url(app_picture/setting.png)";
-setting.className = "app swiper-slide";
-setting.dataset.htmllink = "app_setting.html";
+// var setting = document.createElement("div");
+// setting.id = "setting";
+// setting.style.backgroundImage = "url(app_picture/setting.png)";
+// setting.className = "app swiper-slide";
+// setting.dataset.htmllink = "app_setting.html";
 
-var close = document.createElement("div");
-close.id = "close";
-close.style.backgroundImage = "url(app_picture/close.png)";
-close.className = "app swiper-slide";
+// var close = document.createElement("div");
+// close.id = "close";
+// close.style.backgroundImage = "url(app_picture/close.png)";
+// close.className = "app swiper-slide";
 
 var j = document.getElementById("swiper-wrapper");
 j.appendChild(magnifier);
-j.appendChild(calender);
+// j.appendChild(calender);
 j.appendChild(news_de);
-j.appendChild(setting);
-j.appendChild(close);
+// j.appendChild(setting);
+// j.appendChild(close);
 
 var all = document.querySelectorAll(".app");
 var i;

@@ -1,7 +1,17 @@
 <html>
 <head>
 </head>
+<style>
+  body{
+    background-color: black !important;
+    color: white !important;
+    font-family: ‘cwTeXYen’, sans-serif;
+    font-weight: 200;
+    margin :0;
+  }
+</style>
 <body>
 <img src="{{ url_for('video_feed') }}">
+<input type="button" value="返回" onclick="history.back()">
 </body>
 </html>
