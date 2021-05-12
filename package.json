@@ -30,7 +30,7 @@
     "moment": "^2.23.0",
     "mysql": "^2.16.0",
     "popper.js": "^1.14.7",
-    "swiper": "^4.4.6"
+    "swiper": "^6.5.1"
   },
   "bugs": {
     "url": "https://github.com/electron/electron-quick-start/issues"
